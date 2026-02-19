@@ -1,0 +1,5 @@
+<svg width="200" height="60" viewBox="0 0 200 60" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <path d="M20 15L10 25L13 28L20 21L27 28L30 25L20 15Z" fill="#CBA328"/>
+  <path d="M20 21L13 28L10 33L20 37L30 33L27 28L20 21Z" fill="#CBA328" fill-opacity="0.5"/>
+  <text x="45" y="32" font-family="Inter, sans-serif" font-size="24" font-weight="800" fill="currentColor">KWEEK EARN</text>
+</svg>

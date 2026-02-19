@@ -1,0 +1,38 @@
+2026-02-13 12:14:29.920 WAT [29114] LOG:  starting PostgreSQL 18.1 on arm-unknown-linux-androideabi, compiled by Android (13989888, +pgo, +bolt, +lto, +mlgo, based on r563880c) clang version 21.0.0 (https://android.googlesource.com/toolchain/llvm-project 5e96669f06077099aa41290cdb4c5e6fa0f59349), 32-bit
+2026-02-13 12:14:29.929 WAT [29114] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2026-02-13 12:14:29.948 WAT [29114] LOG:  listening on Unix socket "/data/data/com.termux/files/usr/tmp/.s.PGSQL.5432"
+2026-02-13 12:14:30.020 WAT [29123] LOG:  database system was interrupted; last known up at 2026-02-13 11:04:25 WAT
+2026-02-13 12:14:33.220 WAT [29123] LOG:  database system was not properly shut down; automatic recovery in progress
+2026-02-13 12:14:33.228 WAT [29123] LOG:  redo starts at 0/239FD60
+2026-02-13 12:14:33.228 WAT [29123] LOG:  invalid record length at 0/239FE68: expected at least 24, got 0
+2026-02-13 12:14:33.228 WAT [29123] LOG:  redo done at 0/239FE30 system usage: CPU: user: 0.00 s, system: 0.00 s, elapsed: 0.00 s
+2026-02-13 12:14:33.256 WAT [29121] LOG:  checkpoint starting: end-of-recovery immediate wait
+2026-02-13 12:14:33.279 WAT [29121] LOG:  checkpoint complete: wrote 0 buffers (0.0%), wrote 3 SLRU buffers; 0 WAL file(s) added, 0 removed, 0 recycled; write=0.005 s, sync=0.003 s, total=0.033 s; sync files=2, longest=0.002 s, average=0.002 s; distance=0 kB, estimate=0 kB; lsn=0/239FE68, redo lsn=0/239FE68
+2026-02-13 12:14:33.291 WAT [29114] LOG:  database system is ready to accept connections
+2026-02-13 12:19:33.404 WAT [29121] LOG:  checkpoint starting: time
+2026-02-13 12:19:45.911 WAT [29121] LOG:  checkpoint complete: wrote 114 buffers (0.7%), wrote 2 SLRU buffers; 0 WAL file(s) added, 0 removed, 0 recycled; write=12.064 s, sync=0.308 s, total=12.535 s; sync files=54, longest=0.030 s, average=0.006 s; distance=886 kB, estimate=886 kB; lsn=0/247D890, redo lsn=0/247D800
+2026-02-13 21:14:25.208 WAT [4123] LOG:  starting PostgreSQL 18.1 on arm-unknown-linux-androideabi, compiled by Android (13989888, +pgo, +bolt, +lto, +mlgo, based on r563880c) clang version 21.0.0 (https://android.googlesource.com/toolchain/llvm-project 5e96669f06077099aa41290cdb4c5e6fa0f59349), 32-bit
+2026-02-13 21:14:25.225 WAT [4123] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2026-02-13 21:14:25.229 WAT [4123] LOG:  listening on Unix socket "/data/data/com.termux/files/usr/tmp/.s.PGSQL.5432"
+2026-02-13 21:14:25.277 WAT [4131] LOG:  database system was interrupted; last known up at 2026-02-13 20:58:44 WAT
+2026-02-13 21:14:26.806 WAT [4131] LOG:  database system was not properly shut down; automatic recovery in progress
+2026-02-13 21:14:26.814 WAT [4131] LOG:  redo starts at 0/2DF70D0
+2026-02-13 21:14:26.815 WAT [4131] LOG:  invalid record length at 0/2DF71D8: expected at least 24, got 0
+2026-02-13 21:14:26.815 WAT [4131] LOG:  redo done at 0/2DF71A0 system usage: CPU: user: 0.00 s, system: 0.00 s, elapsed: 0.00 s
+2026-02-13 21:14:26.838 WAT [4129] LOG:  checkpoint starting: end-of-recovery immediate wait
+2026-02-13 21:14:26.873 WAT [4129] LOG:  checkpoint complete: wrote 0 buffers (0.0%), wrote 3 SLRU buffers; 0 WAL file(s) added, 0 removed, 0 recycled; write=0.006 s, sync=0.007 s, total=0.037 s; sync files=2, longest=0.005 s, average=0.004 s; distance=0 kB, estimate=0 kB; lsn=0/2DF71D8, redo lsn=0/2DF71D8
+2026-02-13 21:14:26.883 WAT [4123] LOG:  database system is ready to accept connections
+2026-02-13 21:19:26.976 WAT [4129] LOG:  checkpoint starting: time
+2026-02-13 21:19:41.618 WAT [4129] LOG:  checkpoint complete: wrote 141 buffers (0.9%), wrote 1 SLRU buffers; 0 WAL file(s) added, 0 removed, 0 recycled; write=14.348 s, sync=0.126 s, total=14.643 s; sync files=47, longest=0.021 s, average=0.003 s; distance=1169 kB, estimate=1169 kB; lsn=0/2F1B930, redo lsn=0/2F1B8A0
+2026-02-13 21:24:26.714 WAT [4129] LOG:  checkpoint starting: time
+2026-02-13 21:24:41.323 WAT [4129] LOG:  checkpoint complete: wrote 133 buffers (0.8%), wrote 1 SLRU buffers; 0 WAL file(s) added, 0 removed, 1 recycled; write=13.385 s, sync=0.080 s, total=14.610 s; sync files=50, longest=0.007 s, average=0.002 s; distance=1178 kB, estimate=1178 kB; lsn=0/3042310, redo lsn=0/3042280
+2026-02-13 21:29:26.425 WAT [4129] LOG:  checkpoint starting: time
+2026-02-13 21:29:32.298 WAT [4129] LOG:  checkpoint complete: wrote 57 buffers (0.3%), wrote 1 SLRU buffers; 0 WAL file(s) added, 0 removed, 0 recycled; write=5.779 s, sync=0.042 s, total=5.874 s; sync files=23, longest=0.004 s, average=0.002 s; distance=238 kB, estimate=1084 kB; lsn=0/307DDC0, redo lsn=0/307DD68
+2026-02-13 21:49:26.685 WAT [4129] LOG:  checkpoint starting: time
+2026-02-13 21:49:26.863 WAT [4129] LOG:  checkpoint complete: wrote 1 buffers (0.0%), wrote 1 SLRU buffers; 0 WAL file(s) added, 0 removed, 0 recycled; write=0.122 s, sync=0.004 s, total=0.179 s; sync files=2, longest=0.002 s, average=0.002 s; distance=6 kB, estimate=976 kB; lsn=0/307F890, redo lsn=0/307F838
+2026-02-13 21:54:26.964 WAT [4129] LOG:  checkpoint starting: time
+2026-02-13 21:54:27.887 WAT [4129] LOG:  checkpoint complete: wrote 8 buffers (0.0%), wrote 1 SLRU buffers; 0 WAL file(s) added, 0 removed, 0 recycled; write=0.820 s, sync=0.012 s, total=0.924 s; sync files=9, longest=0.003 s, average=0.002 s; distance=26 kB, estimate=881 kB; lsn=0/3086090, redo lsn=0/3086038
+2026-02-13 22:14:27.246 WAT [4129] LOG:  checkpoint starting: time
+2026-02-13 22:14:28.164 WAT [4129] LOG:  checkpoint complete: wrote 8 buffers (0.0%), wrote 1 SLRU buffers; 0 WAL file(s) added, 0 removed, 0 recycled; write=0.838 s, sync=0.012 s, total=0.919 s; sync files=9, longest=0.002 s, average=0.002 s; distance=26 kB, estimate=796 kB; lsn=0/308CBD8, redo lsn=0/308CB80
+2026-02-13 22:24:27.373 WAT [4129] LOG:  checkpoint starting: time
+2026-02-13 22:24:28.426 WAT [4129] LOG:  checkpoint complete: wrote 8 buffers (0.0%), wrote 1 SLRU buffers; 0 WAL file(s) added, 0 removed, 0 recycled; write=0.875 s, sync=0.040 s, total=1.062 s; sync files=9, longest=0.009 s, average=0.005 s; distance=21 kB, estimate=718 kB; lsn=0/30922B8, redo lsn=0/3092260
